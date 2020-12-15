@@ -6,6 +6,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * gère les données de la chaine de markov
+ */
 public class MarkovData {
 	private Map<String, String> markovTable = new HashMap<String,String>();
 	private List<String> textwords = new ArrayList<String>();

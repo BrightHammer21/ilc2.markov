@@ -5,6 +5,10 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
+/**
+ * Permet de créer la chaine de caractère
+ *
+ */
 public class MarkovChain {
 	
 	/** Markov chain ngram parameter (contiguous sequence of words) */

@@ -7,10 +7,13 @@ import java.nio.file.Paths;
 
 import markov.MarkovChain;
 
+/**
+ * MAIN servant à exécuter le programme
+ */
 public class MarkovApp {
 	
 	public static void main(String[] args) throws Exception {
-        String sentences = readFileAsString("./target/VictorHugo_LesMiserables-II-Cosette.txt");
+        String sentences = readFileAsString("./target/classes/VictorHugo_LesMiserables-II-Cosette.txt");
         System.out.println(sentences);
         
         MarkovChain markov = new MarkovChain(3);

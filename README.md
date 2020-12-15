@@ -22,26 +22,28 @@ Hereafter, for each classes give function to be tested. Remember that all functi
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| main |  |  | 
-| readFileAsString |  |  | 
+| main | D |  |
+| readFileAsString | T |  test si chaine de caractère est la même que celui du fichier connu|
 
 ### Class markov.MarkovChain
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| MarkovChain  |  |  |
-| generateMarkov  |  |  |
-| learn  |  |  |
-| setRgen  |  |  |
+| MarkovChain  | D | constructeur |
+| generateMarkov  | T |  |
+| learn  | T |  |
+| setRgen  | D |  setter |
 
 ### Class markov.MarkovData
 
 | Function      |     I A D T     |        Comment |
 | :------------ | :-------------: | :------------- |
-| read  |  |  |
-| learnWord  |  |  |
-| renforceWord  |  |  |
-| Etc.  |  |  |
+| read  | T |  |
+| learnWord  | D | map() de java |
+| renforceWord  | T |  |
+| getLearnedWord  | D | getter |
+| getKeyWord  | D | getter |
+| keyWordSize  | D | size() java |
 
 ## Functions to test now
 
